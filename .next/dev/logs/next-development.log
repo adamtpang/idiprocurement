@@ -1,0 +1,408 @@
+[00:00:01.334] Server  WARN     ⚠ Minimum recommended TypeScript version is v5.1.0, older versions can potentially be incompatible with Next.js. Detected: 5.0.2
+[00:00:01.338] Server  LOG     
+[00:00:01.338] Server  LOG        We detected TypeScript in your project and reconfigured your tsconfig.json file for you.
+[00:00:01.339] Server  LOG        The following suggested values were added to your tsconfig.json. These values can be changed to fit your project's needs:
+
+[00:00:01.339] Server  LOG        	- include was updated to add '.next/dev/types/**/*.ts'
+[00:00:01.339] Server  LOG     
+[00:00:01.339] Server  LOG        The following mandatory changes were made to your tsconfig.json:
+
+[00:00:01.339] Server  LOG        	- jsx was set to react-jsx (next.js uses the React automatic runtime)
+[00:00:01.339] Server  LOG     
+[00:00:01.503] Server  LOG      ✓ Ready in 1027ms
+[00:00:13.179] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:13.808] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:00:13.809] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:00:13.809] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765276433936}
+[00:41:36.086] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:41:36.277] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:41:36.277] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:41:36.277] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765278916410}
+[00:45:44.144] Server  ERROR    ⨯ ./components/opportunity-table.tsx:5:1
+Module not found: Can't resolve '@/components/ui/button'
+  3 | import { useState } from "react"
+  4 | import { ArrowUpDown, Mail } from "lucide-react"
+> 5 | import { Button } from "@/components/ui/button"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | export type Opportunity = {
+  8 |     product: string
+
+Import map: aliased to relative './components/ui/button' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./components/opportunity-table.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:45:44.146] Server  ERROR    ⨯ ./components/opportunity-table.tsx:5:1
+Module not found: Can't resolve '@/components/ui/button'
+  3 | import { useState } from "react"
+  4 | import { ArrowUpDown, Mail } from "lucide-react"
+> 5 | import { Button } from "@/components/ui/button"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | export type Opportunity = {
+  8 |     product: string
+
+Import map: aliased to relative './components/ui/button' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./components/opportunity-table.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:45:44.148] Server  ERROR    ⨯ ./components/opportunity-table.tsx:5:1
+Module not found: Can't resolve '@/components/ui/button'
+  3 | import { useState } from "react"
+  4 | import { ArrowUpDown, Mail } from "lucide-react"
+> 5 | import { Button } from "@/components/ui/button"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | export type Opportunity = {
+  8 |     product: string
+
+Import map: aliased to relative './components/ui/button' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./components/opportunity-table.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:45:44.150] Server  ERROR    ⨯ ./components/opportunity-table.tsx:5:1
+Module not found: Can't resolve '@/components/ui/button'
+  3 | import { useState } from "react"
+  4 | import { ArrowUpDown, Mail } from "lucide-react"
+> 5 | import { Button } from "@/components/ui/button"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | export type Opportunity = {
+  8 |     product: string
+
+Import map: aliased to relative './components/ui/button' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./components/opportunity-table.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:45:44.151] Server  ERROR    ⨯ ./components/metric-cards.tsx:4:1
+Module not found: Can't resolve '@/components/ui/progress'
+  2 |
+  3 | import { DollarSign, TrendingUp, BarChart } from 'lucide-react'
+> 4 | import { Progress } from "@/components/ui/progress"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | interface MetricCardsProps {
+  7 |     totalSpend: number
+
+Import map: aliased to relative './components/ui/progress' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./components/metric-cards.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:45:44.151] Server  ERROR    ⨯ ./components/metric-cards.tsx:4:1
+Module not found: Can't resolve '@/components/ui/progress'
+  2 |
+  3 | import { DollarSign, TrendingUp, BarChart } from 'lucide-react'
+> 4 | import { Progress } from "@/components/ui/progress"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | interface MetricCardsProps {
+  7 |     totalSpend: number
+
+Import map: aliased to relative './components/ui/progress' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./components/metric-cards.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:45:44.152] Server  ERROR    ⨯ ./components/metric-cards.tsx:4:1
+Module not found: Can't resolve '@/components/ui/progress'
+  2 |
+  3 | import { DollarSign, TrendingUp, BarChart } from 'lucide-react'
+> 4 | import { Progress } from "@/components/ui/progress"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | interface MetricCardsProps {
+  7 |     totalSpend: number
+
+Import map: aliased to relative './components/ui/progress' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./components/metric-cards.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:45:44.153] Server  ERROR    ⨯ ./components/metric-cards.tsx:4:1
+Module not found: Can't resolve '@/components/ui/progress'
+  2 |
+  3 | import { DollarSign, TrendingUp, BarChart } from 'lucide-react'
+> 4 | import { Progress } from "@/components/ui/progress"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | interface MetricCardsProps {
+  7 |     totalSpend: number
+
+Import map: aliased to relative './components/ui/progress' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./components/metric-cards.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:50:10.974] Server  ERROR    ⨯ ./components/metric-cards.tsx:4:1
+Module not found: Can't resolve '@/components/ui/progress'
+  2 |
+  3 | import { DollarSign, TrendingUp, BarChart } from 'lucide-react'
+> 4 | import { Progress } from "@/components/ui/progress"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | interface MetricCardsProps {
+  7 |     totalSpend: number
+
+Import map: aliased to relative './components/ui/progress' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./components/metric-cards.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:50:10.975] Server  ERROR    ⨯ ./components/metric-cards.tsx:4:1
+Module not found: Can't resolve '@/components/ui/progress'
+  2 |
+  3 | import { DollarSign, TrendingUp, BarChart } from 'lucide-react'
+> 4 | import { Progress } from "@/components/ui/progress"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | interface MetricCardsProps {
+  7 |     totalSpend: number
+
+Import map: aliased to relative './components/ui/progress' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./components/metric-cards.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:50:10.976] Server  ERROR    ⨯ ./components/metric-cards.tsx:4:1
+Module not found: Can't resolve '@/components/ui/progress'
+  2 |
+  3 | import { DollarSign, TrendingUp, BarChart } from 'lucide-react'
+> 4 | import { Progress } from "@/components/ui/progress"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | interface MetricCardsProps {
+  7 |     totalSpend: number
+
+Import map: aliased to relative './components/ui/progress' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./components/metric-cards.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:50:10.977] Server  ERROR    ⨯ ./components/metric-cards.tsx:4:1
+Module not found: Can't resolve '@/components/ui/progress'
+  2 |
+  3 | import { DollarSign, TrendingUp, BarChart } from 'lucide-react'
+> 4 | import { Progress } from "@/components/ui/progress"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | interface MetricCardsProps {
+  7 |     totalSpend: number
+
+Import map: aliased to relative './components/ui/progress' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./components/metric-cards.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:50:11.502] Server  ERROR    ⨯ ./components/metric-cards.tsx:4:1
+Module not found: Can't resolve '@/components/ui/progress'
+  2 |
+  3 | import { DollarSign, TrendingUp, BarChart } from 'lucide-react'
+> 4 | import { Progress } from "@/components/ui/progress"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | interface MetricCardsProps {
+  7 |     totalSpend: number
+
+Import map: aliased to relative './components/ui/progress' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./components/metric-cards.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:50:11.502] Server  ERROR    ⨯ ./components/metric-cards.tsx:4:1
+Module not found: Can't resolve '@/components/ui/progress'
+  2 |
+  3 | import { DollarSign, TrendingUp, BarChart } from 'lucide-react'
+> 4 | import { Progress } from "@/components/ui/progress"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | interface MetricCardsProps {
+  7 |     totalSpend: number
+
+Import map: aliased to relative './components/ui/progress' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./components/metric-cards.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:50:11.504] Server  ERROR    ⨯ ./components/metric-cards.tsx:4:1
+Module not found: Can't resolve '@/components/ui/progress'
+  2 |
+  3 | import { DollarSign, TrendingUp, BarChart } from 'lucide-react'
+> 4 | import { Progress } from "@/components/ui/progress"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | interface MetricCardsProps {
+  7 |     totalSpend: number
+
+Import map: aliased to relative './components/ui/progress' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./components/metric-cards.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:50:11.504] Server  ERROR    ⨯ ./components/metric-cards.tsx:4:1
+Module not found: Can't resolve '@/components/ui/progress'
+  2 |
+  3 | import { DollarSign, TrendingUp, BarChart } from 'lucide-react'
+> 4 | import { Progress } from "@/components/ui/progress"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | interface MetricCardsProps {
+  7 |     totalSpend: number
+
+Import map: aliased to relative './components/ui/progress' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./components/metric-cards.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:50:16.479] Server  LOG      ✓ Compiled in 87ms
+[00:50:33.121] Server  WARN    The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[00:50:33.711] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:50:33.965] Browser WARN    The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[00:50:33.965] Browser WARN    The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[00:50:34.032] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:50:34.032] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:50:34.032] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765279454172}
+[00:57:41.589] Server  LOG      ✓ Compiled in 974ms
+[00:58:31.114] Server  LOG      ✓ Compiled in 55ms
+[00:58:31.216] Browser ERROR   uncaughtError: TypeError: Cannot read properties of undefined (reading 'toFixed')
+[00:58:32.730] Server  WARN    The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[00:58:33.306] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:58:33.550] Browser WARN    The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[00:58:33.550] Browser WARN    The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[00:58:33.663] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:58:33.663] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:58:33.663] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765279933800}
+[01:01:55.228] Server  WARN    The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[01:01:55.679] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:01:55.877] Browser WARN    The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[01:01:55.877] Browser WARN    The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[01:01:55.985] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[01:01:55.985] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[01:01:55.985] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765280136123}

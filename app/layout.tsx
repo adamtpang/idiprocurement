@@ -6,8 +6,8 @@ import './globals.css'
 const spaceGrotesk = Space_Grotesk({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: 'v0 App',
-  description: 'Created with v0',
+  title: 'idiprocurement',
+  description: 'Procurement Intelligence Dashboard',
   generator: 'v0.app',
   icons: {
     icon: [
